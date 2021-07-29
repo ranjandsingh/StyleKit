@@ -10,6 +10,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Bernard Gatt" => "bernard@blinkrocket.com" }
   s.platform     = :ios, "8.0"
+  s.swift_version = '4.0'
+
 
   s.source       = { :git => "https://github.com/146BC/StyleKit.git", :tag => "#{s.version}" }
 
